@@ -1,0 +1,51 @@
+{
+  "configuracion": {
+    "base_url": "http://solventa-alb-1318338393.us-east-1.elb.amazonaws.com",
+    "baseline_rate": 0.0,
+    "baseline_duration_s": 0.0,
+    "rate_objetivo": 100.0,
+    "ramp_up_s": 10.0,
+    "duration_s": 60.0,
+    "socios": 2,
+    "max_inflight": 3000
+  },
+  "totales": {
+    "peticiones": 6374,
+    "duracion_pared_s": 101.29,
+    "tps_promedio_global": 62.93,
+    "generador": {
+      "atraso_max": 120,
+      "descartadas": 0,
+      "programadas": 6374,
+      "enviadas": 6374
+    },
+    "p50_ms": 3023.88,
+    "p95_ms": 9159.83,
+    "p99_ms": 13928.17,
+    "max_ms": 18763.53,
+    "desv_std_ms": 2648.47
+  },
+  "carga_maxima": {
+    "ventana": "t >= 10s",
+    "peticiones": 5875,
+    "tps_alcanzado": 97.92,
+    "p50_ms": 3199.02,
+    "p95_ms": 9546.37,
+    "p99_ms": 14056.98,
+    "error_pct": 87.47,
+    "errores_por_tipo": {
+      "http_408_presupuesto": 5139
+    }
+  },
+  "tiempos_del_pico": {
+    "inicio_rampa_s": 0.0,
+    "ttr_s": 0.0,
+    "nota": "TTR = segundos desde el inicio de la rampa hasta que el p95 por segundo vuelve bajo el umbral y se sostiene. El TTS (instancia nueva healthy) sale de watch_scaling.sh, no de aqui."
+  },
+  "asr": {
+    "p95_objetivo_ms": 500.0,
+    "error_pct_objetivo": 2.0,
+    "tps_objetivo": 100.0,
+    "cumple": false
+  }
+}

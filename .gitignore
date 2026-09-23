@@ -1,0 +1,2 @@
+# los archivos crudos (una fila por petición) pesan demasiado para el repo
+*_raw.csv
