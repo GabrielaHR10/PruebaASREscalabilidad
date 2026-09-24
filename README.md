@@ -229,6 +229,7 @@ todo escritura.
 | `1-programas-usados/` | `spike_cotizacion.py` genera la carga · `orquestador.sh` ejecuta las 53 corridas aplicando siempre el mismo procedimiento · `seed_load_test.py` siembra los datos de prueba |
 | `2-resultados/` | `tabla_resultados.csv` con las 53 corridas y sus números · `resumenes-por-corrida/` con el detalle de cada proceso · `medicion-segundo-a-segundo/` con cómo evolucionó cada prueba en el tiempo |
 | `3-evidenciaAWS/` | las imagenes de evidencia del despliegue de instancias, security groups y el balanceador de craga en AWS |
+| `informe/` | `informe_experimento.pdf` — el informe completo del experimento (vistas de arquitectura, tácticas, resultados, análisis, conclusión y decisión de arquitectura), con su fuente en LaTeX y las figuras |
 
 
 ### Cómo leer `tabla_resultados.csv`
